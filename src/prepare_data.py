@@ -16,4 +16,3 @@ with open('id2label.json', 'w') as f:
 train_df.to_csv('train.csv', index=False)
 test_df.to_csv('test.csv', index=False)
 print('Done! Rows:', len(train_df))
-

@@ -115,4 +115,3 @@ tokenizer.push_to_hub('jayagovind1703/my-mlops-model')
 wandb.run.summary['huggingface_model'] = 'https://huggingface.co/jayagovind1703/my-mlops-model'
 
 wandb.finish()
-
