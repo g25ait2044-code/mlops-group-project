@@ -24,3 +24,4 @@ score = torch.softmax(logits, dim=1)[0][predicted_class_id].item()
 
 print(f'Input: {input_text}')
 print(f"Result: [{{'label': '{label}', 'score': {score:.4f}}}]")
+
