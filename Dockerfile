@@ -5,7 +5,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Accept the Hugging Face model name as a build argument
-ARG HF_MODEL_NAME=your-hf-username/my-mlops-model
+ARG HF_MODEL_NAME=jayagovind1703/my-mlops-model
 ENV HF_MODEL_NAME=$HF_MODEL_NAME
 
 # Copy requirements and install them
